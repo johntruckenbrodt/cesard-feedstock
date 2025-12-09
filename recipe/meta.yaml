@@ -1,5 +1,5 @@
 {% set name = "cesard" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8aa4c731098f1fa490f896821572b7abbcbc3793337bc93e87461b9443f9260c
+  sha256: 7d366d674cc995ce6da041e3315c5216bed700d3d54a8fc1337177e5ac60e52c
 
 build:
   noarch: python
