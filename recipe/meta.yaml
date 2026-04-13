@@ -26,9 +26,9 @@ requirements:
     - geopandas
     - lxml
     - multiformats >=0.3.1
-    - numpy <2.0
+    - numpy
     - pandas
-    - pyroSAR >=0.33.1
+    - pyroSAR >=0.35.0
     - pystac >=1.8.0,<1.11.0
     - python >={{ python_min }}
     - python-dateutil
