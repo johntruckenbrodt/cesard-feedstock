@@ -1,5 +1,5 @@
 {% set name = "cesard" %}
-{% set version = "1.2.4" %}
+{% set version = "1.2.5" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bd07e0288c5e556092bb0663315540144dc673eb2b81ad6405f8ed03dffe6461
+  sha256: 9dfaf14e761bee665bb82c792e7de86341b1518a033c0e56b315297c0434ebc5
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ requirements:
     - python-dateutil
     - requests
     - scipy
-    - spatialist >=0.16.0
+    - spatialist >=0.19.0
 
 test:
   imports:
