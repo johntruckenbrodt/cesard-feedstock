@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python >=3.11
     - pip
     - setuptools
     - setuptools_scm
@@ -30,7 +30,7 @@ requirements:
     - pandas
     - pyroSAR >=0.35.0
     - pystac >=1.8.0,<1.11.0
-    - python >={{ python_min }}
+    - python >=3.11
     - python-dateutil
     - requests
     - scipy
@@ -42,7 +42,7 @@ test:
   commands:
     - pip check
   requires:
-    - python {{ python_min }}
+    - python >=3.11
     - pip
 
 about:
